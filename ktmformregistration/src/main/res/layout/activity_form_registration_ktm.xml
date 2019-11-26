@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormRegistrationKtmActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Form Registration KTM"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/inputNamaMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Mahasiswa"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/inputAlamatMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/inputUsiaMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usia"
+        android:maxLength="3"
+        android:inputType="numberDecimal"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/buttonDaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="right"
+        android:hint="Registration"/>
+</LinearLayout>

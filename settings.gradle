@@ -1,0 +1,2 @@
+include ':app', ':ktmformregistration'
+rootProject.name='RegistrasiKTM'

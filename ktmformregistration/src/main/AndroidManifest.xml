@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bcaf.itdp2.ktmformregistration">
+
+    <application>
+        <activity android:name=".FormRegistrationKtmActivity"></activity>
+    </application>
+
+</manifest>
